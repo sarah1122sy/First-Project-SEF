@@ -205,7 +205,7 @@ body {
     position: relative;
     border-radius: 12px;
     border: 1px solid #A8B9A5;
-
+overflow: auto; /*             */
 }
 
 .welcome-divs-second {
@@ -304,6 +304,7 @@ body {
     height: 200px;
     margin: 30px 0;
     position: relative;
+    overflow: auto; /*           */
 }
 
 .featured-divs-first {
@@ -414,6 +415,7 @@ body {
     border-radius: 15px;
     padding: 35px 10px 0 65px;
     text-align: left;
+    overflow: auto; /*      */
 }
 
 .what-offer-divs-second {
@@ -649,6 +651,7 @@ body {
     border-radius: 20px;
     z-index: 0;
     border: 1px solid #A8B9A5;
+    overflow: auto; /*      */
 }
 
 .pricing-divs-sec {
@@ -754,6 +757,8 @@ body {
     height: 100%;
     float: left;
     position: relative;
+    
+    overflow: auto; /*      */
 }
 
 .two-clients-content {
@@ -924,6 +929,8 @@ body {
     border: 1px solid #A8B9A5;
     border-radius: 10px;
     z-index: 1;
+    
+    overflow: auto; /*      */
 }
 
 .recent-news-item-sec {
