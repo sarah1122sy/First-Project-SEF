@@ -12,9 +12,6 @@ body {
 .header {
     width: 100%;
     height: 50px;
-    /* background-color: rgba(48, 52, 52, 0.666); */
-    /* background-color: #A89CF6; */
-    /* background-color:rgba(255, 255, 255, 0.8); */
     background-color: rgba(183, 110, 121, 0.844);
     position: fixed;
     z-index: 5;
@@ -22,7 +19,6 @@ body {
 }
 
 #home-icon {
-    /* color: white; */
     color: rgb(255, 255, 255);
     line-height: 50px;
     font-size: 22px;
@@ -46,7 +42,6 @@ body {
     top: 0;
     left: 97px;
     line-height: 50px;
-
 }
 
 .header li {
@@ -58,7 +53,6 @@ body {
     width: 0%;
     height: 1px;
     transition: 0.5s;
-    /* background-color: red; */
     background-color: #A8B9A5;
     position: absolute;
     bottom: 0px;
@@ -87,7 +81,6 @@ body {
 
 .header-container-ul a {
     text-decoration: none;
-    /* color:#4F403B; */
     color: rgb(248, 245, 242);
 }
 
@@ -119,7 +112,7 @@ body {
 }
 
 .hero-img {
-    background-image: url(../images/hero-image3.jpg);
+    background-image: url(../images/hero-image.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -130,8 +123,6 @@ body {
 .hero-img-overlay {
     position: absolute;
     background-color: rgb(0, 0, 0, 0.5);
-    /* background-color: rgb(248, 245, 242,0.5); */
-    /* background-color: rgba(248, 245, 242, 0.35); */
     top: 0;
     left: 0;
     width: 100%;
@@ -170,13 +161,10 @@ body {
 
 .hero-img-btn1 {
     margin-right: 5px;
-    /* background-color: rgb(246, 151, 229); */
     background-color: #A8B9A5;
 }
 
 .hero-img-btn2 {
-    /* background-color: rgb(170, 0, 255); */
-    /* background-color: #A89CF6; */
     background-color: rgb(217, 143, 168);
 }
 
@@ -203,8 +191,6 @@ body {
 }
 
 .all_hr {
-    /* background-color:  rgb(108, 108, 214); */
-    /* background-color:rgb(217, 143, 168); */
     background-color: #A8B9A5;
     height: 3px;
     width: 90px;
@@ -213,7 +199,6 @@ body {
 
 .welcome-divs {
     width: 30%;
-    /* background-color: wheat; */
     float: left;
     height: 220px;
     margin: 110px 0;
@@ -258,11 +243,9 @@ body {
 
 .welcome-divs-content p {
     margin: 20px 0;
-    /* color: #b3b1b1; */
 }
 
 .welcome-divs-content h2 {
-    /* color: rgb(217, 143, 168); */
     color: rgb(183, 110, 121);
 }
 
@@ -274,7 +257,6 @@ body {
     top: 0;
     left: 0;
     background-color: rgba(185, 121, 131, 0.773);
-    /* background-color: #F8D7E8; */
     opacity: 0;
     border-radius: 10px;
     z-index: -1;
@@ -301,8 +283,6 @@ body {
     font-weight: 700;
 }
 
-
-
 .featured-works {
     width: 100%;
     background-color: rgba(249, 220, 224, 0.773);
@@ -310,7 +290,6 @@ body {
     overflow: auto;
     margin-top: 50px;
     padding-top: 30px;
-
 }
 
 .featured-works-container {
@@ -328,7 +307,7 @@ body {
 }
 
 .featured-divs-first {
-    background-image: url(../images/romance3.jpg);
+    background-image: url(../images/romance.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -336,20 +315,20 @@ body {
 .featured-divs-second {
     margin-left: 5%;
     margin-right: 5%;
-    background-image: url(../images/spring5.jpg);
+    background-image: url(../images/spring.jpg);
     background-position: center;
     background-size: cover;
 
 }
 
 .featured-divs-third {
-    background-image: url(../images/pure.jpg);
+    background-image: url(../images/pure-white.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .featured-divs-fourth {
-    background-image: url(../images/sunny1.jpg);
+    background-image: url(../images/sunny.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -363,16 +342,14 @@ body {
 }
 
 .featured-divs-sixth {
-    background-image: url(../images/garden1.jpg);
+    background-image: url(../images/garden.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .featured-overlay {
     position: absolute;
-    /* background-color: rgba(241, 168, 247, 0.318); */
     background-color: rgba(217, 143, 168, 0.6);
-    /* rgba(228, 157, 181, 0.6) */
     width: 100%;
     height: 100%;
     top: 0;
@@ -414,7 +391,6 @@ body {
 .what-offer {
     width: 100%;
     height: 100vh;
-    overflow: auto;
     margin-top: 50px;
     padding-top: 30px;
     text-align: center;
@@ -461,7 +437,6 @@ body {
     top: 0;
     left: -48px;
     font-size: 30px;
-    /* color:rgb(217, 143, 168); */
     color: #4F403B;
 }
 
@@ -517,12 +492,10 @@ body {
     margin: 70px auto 0;
     height: 100vh;
     overflow: auto;
-    /* background-color: aquamarine; */
     padding-top: 30px;
 }
 
 .why-choose-hr {
-    /* background-color:#D98FA8; */
     background-color: #A8B9A5;
     height: 3px;
     width: 90px;
@@ -572,7 +545,7 @@ body {
     float: left;
     font-size: 50px;
     padding: 5px;
-    color: rgb(185, 121, 131);
+    color: #f0b5b2;
 
 }
 
@@ -582,12 +555,11 @@ body {
 }
 
 #first-li {
-    color: #f0b5b2;
+    color: rgb(185, 121, 131);
 }
 
 .SEC_ul li:hover {
-    /* color: rgb(213, 122, 152); */
-    color: #f0b5b2;
+    color: rgb(185, 121, 131);
 }
 
 .happy-clients-container {
@@ -595,11 +567,10 @@ body {
     position: relative;
     width: 100%;
     height: 400px;
-    background-image: url(../images/happy2.jpg);
+    background-image: url(../images/happy.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    /* overflow: auto; */
 }
 
 .happy-clients-overlay {
@@ -658,7 +629,6 @@ body {
     height: 100vh;
     margin-top: 70px;
     text-align: center;
-    /* background-color: aqua; */
     padding-top: 30px;
 }
 
@@ -710,9 +680,6 @@ body {
     color: rgb(183, 110, 121);
 }
 
-/* .pricing-divs p{
-    color: rgb(183, 110, 121);
-} */
 .pricing-divs ul {
     list-style: none;
 }
@@ -729,7 +696,6 @@ body {
     border-radius: 10px;
     margin-top: 10px;
     cursor: pointer;
-    /* background-color: transparent; */
     background-color: transparent;
     border: 2px solid rgb(217, 143, 168);
 }
@@ -756,18 +722,18 @@ body {
     background-color: #F0F0F0;
 }
 
-.two-team-container {
+.two-clients-container {
     position: relative;
     width: 100%;
     height: 400px;
-    background-image: url(../images/download.png);
+    background-image: url(../images/two-clients.png);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     margin-top: 70px;
 }
 
-.two-team-overlay {
+.two-clients-overlay {
     position: absolute;
     background-color: rgba(123, 123, 123, 0.7);
     width: 100%;
@@ -776,21 +742,21 @@ body {
     left: 0;
 }
 
-.two-team-parent {
+.two-clients-parent {
     width: 80%;
     margin: auto;
     height: 100%;
     position: relative;
 }
 
-.two-team-divs {
+.two-clients-divs {
     width: 50%;
     height: 100%;
     float: left;
     position: relative;
 }
 
-.two-team-content {
+.two-clients-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -800,17 +766,17 @@ body {
     padding: 70px;
 }
 
-.two-team-content-first {
+.two-clients-content-first {
     float: left;
 }
 
-.two-team-content-first img {
+.two-clients-content-first img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
 
-.two-team-content-sec {
+.two-clients-content-sec {
     float: left;
     padding: 20px;
     text-transform: capitalize;
@@ -826,7 +792,7 @@ body {
     color: black;
 }
 
-.two-team-content p {
+.two-clients-content p {
     margin: 5px 0;
 }
 
@@ -890,7 +856,6 @@ body {
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     visibility: hidden;
-    /* z-index: 1; */
 }
 
 .our-team-item:hover .our-team-icons {
@@ -901,8 +866,6 @@ body {
     display: block;
     width: 40px;
     height: 40px;
-    /* background-color:  rgba(199, 98, 206, 0.725); */
-    /* background-color: rgb(183, 110, 121); */
     background-color: #A8B9A5;
     color: white;
     margin-left: auto;
@@ -938,7 +901,6 @@ body {
 
 .our-team-item:hover .our-team-info p {
     color: rgb(183, 110, 121);
-    /* color: #A8B9A5; */
 }
 
 .recent-news {
@@ -946,8 +908,6 @@ body {
     width: 100%;
     height: 100vh;
     margin-top: 70px;
-    /* background-color: cadetblue; */
-    /* padding-top: 30px; */
 }
 
 .recent-news-parent {
@@ -1062,7 +1022,7 @@ body {
 }
 
 .footer-img {
-    background-image: url(../images/footer1.jpg);
+    background-image: url(../images/footer.jpg);
     background-size: cover;
     background-position: center;
     width: 220px;
